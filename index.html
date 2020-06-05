@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+
+// camelCase
+
+// kebab_case
+
+// something-else-case <-- not common since JavaScript might try to do math.
+
+var today = 'The 4th';
+var weather = 'Finally Sunny';
+var isClassStarted = true;
+var hasClassEnded = false;
+var studentCount = 20;
+var studentNames = ['Julie', 'Nickolause', 'Xavier']
+
+<!--var students = [{}, [], '', 2] Arrays can have multiple types of objects in them.-->
+
+console.log(studentNames);
+
+// this is an object and within the object, are properties. In this case, f'n is the property.
+var calculator = {
+    // takes in two numbers and returns the result
+    addNumbers: function (numberOne, numberTwo){
+        return numberOne + numberTwo;
+    },
+    subtractNumbers: function(numberOne, numberTwo){
+        return numberOne - numberTwo;
+    }
+};
+
+// use the custom function to add these numbers
+// add calculator.___ to reference the property
+var additionResult = calculator.addNumbers(800, 100);
+var subtractionResult = calculator.subtractNumbers(1000,45)
+
+console.log(additionResult);
+console.log(subtractionResult);
+// can also use one console.log expression:
+console.log(additionResult, subtractionResult);
+
+
+</script>    
+
+</head>
+
+<body>
+    <h1>Hello Class!</h1>
+    <div>I am a div</div>
+</body>
+
+
+</html>
